@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#content{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header{
+    background: steelblue;
+    color: white;
+    height: 60px;
+    margin-top: 15px;
+}
+    .logo{
+        text-transform: uppercase;
+    }
+        .logo a{
+            text-decoration: none;
+            color: white;
+        }
+
+.navbar{
+    background: lightgray;
+    margin-top: 20px;
+}
+    .navbar ul{
+        list-style-type: none;
+        text-align: right;
+    }
+        .navbar ul li a{
+            text-decoration: none;
+            display:block;
+            color: white;
+        }
+        .navbar ul li a:hover{
+            background: red;
+            color: black;
+        }
+
+.main{
+    margin-top: 15px;
+}
+    .container{
+        margin-top: 5px;
+        background-color: white;
+    }
+    .columnflex{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .section1{
+        background: grey;
+        padding: 15px;
+        text-align: left;
+        width: 80%;
+    }
+        .content1{
+            padding: 15px;
+            background-color: white; 
+        }           
+        .caption{
+            width: 50%;                
+        }
+            .caption h3{
+                padding: 10px;
+            }
+            .caption p{
+                padding: 10px;
+            }
+
+    .section2{
+        width: 15%;
+        height: 100%;
+        background: lightgrey;
+        margin-left: auto;
+    }
+        .section2 h5{
+            text-align: center;
+            padding-top: 20px;
+        }
+        .section2 iframe{
+            width: 100%;
+        }
+
+.footer{
+    background: skyblue;
+}
+    .footer h3{
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: small;
+        color: white;
+        padding: 10px;
+    }
